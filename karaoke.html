@@ -1,110 +1,177 @@
 <!DOCTYPE html>
 <html>
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale=1.0, minmun-scale=1.0">
- <title>exo proyect</title>
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="css/style.css">
-</head>
-<a name="sitio"></a>
-<body>
- <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-   <div class="container">
-     <div class="navbar-header">
-       <button type="<button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-exo">
-      	 <span class="sr-only">Menu</span>
-    		 <span class="icon-bar"></span>
-    		 <span class="icon-bar"></span>
-    		 <span class="icon-bar"></span>
-       </button>
-       <a href="#" class="navbar-brand">Exo proyect</a>
-     </div>
-   </div>
-   <div class="collapse navbar-collapse" id="navegacion-exo">
-     <ul class="nav navbar-nav">
-       <li><a href="home.html#sitio8">Home</a></li>
-       <li class="active"><a href="#">Karaoke</a></li>
-       <li><a href="musica3d.html#sitio1">Musica 3D</a></li>
-       <li><a href="kpopcrack.html#sitio2">Kpop Crack</a></li>
-       <li><a href="fanchat.html#sitio3">Fanchat</a></li>
-       <li><a href="chanllenge.html#sitio4">Challenge</a></li>
-       <li><a href="guias.html#sitio5">Guias</a></li>
-       <li><a href="coreografias.html#sitio6">Coreografia</a></li>
-       <li><a href="imagenes.html#sitio7">Imagenes</a></li>
-     </ul>
-   </div>
- </nav>
- <h2>Karaoke</h2>
- <h3>BTS</h3>
- <div class="video-responsive">
-    <td><iframe width="700" height="400" src="https://www.youtube.com/embed/8B_1Br4-SAc" frameborder="0" allowfullscreen></iframe>
- </div>
- <h2>Exo</h2>
- <div class="video-responsive">
-    <td><iframe width="700" height="400" src="https://www.youtube.com/embed/3srgTmjhQ7A" frameborder="0" allowfullscreen></iframe>
- </div>
- <h2>vixx</h2>
- <div class="video-responsive">
-    <td><iframe width="700" height="400" src="https://www.youtube.com/embed/zJ6IVGVzDvo" frameborder="0" allowfullscreen></iframe>
- </div>
- <div class="col-md-5">
- <br>
- <p>Te gusto la cancion?</p>
- <button class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Si</button>
- <button class="btn btn-primary"><span class="glyphicon glyphicon-remove"></span> no</button>
- <br><br>
- <p>Si no te gustaron o quisieras otras canciones comentalo</p>
- <div class="col-md-5">
-   <div class="form-group"> 
-    <label for="mensaje">Comentar</label>
-    <textarea class="form-control" id="mensaje" placeholder="Comenta que canciones te gustarian.."></textarea>
-   </div>
- </div>
- <footer>
-   <div class="container">
-     <div class="row">
-       <div class="col-md-5">
-         <br>
-         <p>Exo Proyect</p>
-       </div>
-     </div>
-   </div>  
-   <div class="col-xs-6">
-     <ul class="list-inline text-right">
-       <p><a href="#top">Bact to top</a></p>
-     </ul>
-   </div>
- </footer>
- </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale=1.0, minmun-scale=1.0">
+    <title>exo proyect</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <a name="sitio"></a>
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="<button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-exo">
+          <span class="sr-only">Menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Exo proyect</a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navegacion-exo">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html#sitio8">Home</a></li>
+          <li class="active"><a href="#">Karaoke</a></li>
+          <li><a href="musica3d.html#sitio1">Musica 3D</a></li>
+          <li><a href="kpopcrack.html#sitio2">Kpop Crack</a></li>
+          <li><a href="fanchat.html#sitio3">Fanchat</a></li>
+          <li><a href="chanllenge.html#sitio4">Challenge</a></li>
+          <li><a href="guias.html#sitio5">Guias</a></li>
+          <li><a href="coreografias.html#sitio6">Coreografia</a></li>
+          <li><a href="imagenes.html#sitio7">Imagenes</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h2>Karaoke</h2>
+
+
+
+      <div class="row">
+        <div class="col-xs-13 col-sm-4">
+          <h3>BTS</h3>
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8B_1Br4-SAc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-8">
+          <br>
+          <br>
+          <form class="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Te gusto la cancion?</label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Si</button>
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-remove"></span> no</button>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">Si no te gustaron o quisieras otras canciones comentalo</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-13 col-sm-4">
+          <h3>BTS</h3>
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8B_1Br4-SAc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-8">
+          <br>
+          <br>
+          <form class="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Te gusto la cancion?</label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Si</button>
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-remove"></span> no</button>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">Si no te gustaron o quisieras otras canciones comentalo</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-13 col-sm-4">
+          <h3>BTS</h3>
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8B_1Br4-SAc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-8">
+          <br>
+          <br>
+          <form class="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Te gusto la cancion?</label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Si</button>
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-remove"></span> no</button>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">Si no te gustaron o quisieras otras canciones comentalo</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-13 col-sm-4">
+          <h3>BTS</h3>
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8B_1Br4-SAc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-8">
+          <br>
+          <br>
+          <form class="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Te gusto la cancion?</label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Si</button>
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-remove"></span> no</button>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">Si no te gustaron o quisieras otras canciones comentalo</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+      </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <script src="http://code.jquery.com/jquery-latest.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <br>
+            <p>Exo Proyect</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <ul class="list-inline text-right">
+          <p><a href="#top">Bact to top</a></p>
+        </ul>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>
